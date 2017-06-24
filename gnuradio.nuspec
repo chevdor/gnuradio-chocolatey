@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>gnuradio</id>
+    <title>gnuradio</title>
+    <version>3.7.3.1</version>
+    <authors>
+    Eric Blossom, 
+    Matt Ettus, 
+    John Gilmore, 
+    Stephane Fillod, 
+    Chuck Swiger, 
+    Ramakrishnan Muthukrishnan,
+    Martin Dudok van Heel,
+    Bob McGwier,
+    Krzysztof Kamieniecki,
+    Andrew Thomas Beck,
+    Joshua Lackey,
+    Johnathan Corgan,
+    Bdale Garbee,
+    Tom Rondeau 
+    </authors>
+    <owners>ariovistus,chevdor</owners>
+    <summary>gnuradio</summary>
+    <description>
+    GNU Radio is a free &amp; open-source software development toolkit that provides signal processing blocks to implement software radios. It can be used with readily-available low-cost external RF hardware to create software-defined radios, or without hardware in a simulation-like environment. It is widely used in hobbyist, academic and commercial environments to support both wireless communications research and real-world radio systems.
+    </description>
+    <copyright></copyright>
+    <projectUrl>http://gnuradio.org/</projectUrl>
+    <licenseUrl>http://www.gnu.org/copyleft/gpl.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <dependencies>
+      <dependency id="python2-x86_32" version="2.7.8" />
+      <dependency id="pygtk-all-in-one_win32_py2.7" version="2.24.2.2014021601" />
+      <dependency id="wxpython" />
+      <dependency id="numpy" />
+      <!-- <dependency id="easy.install" /> -->
+      <dependency id="python2-vcc" />
+    </dependencies>
+    <releaseNotes></releaseNotes>
+  </metadata>
+</package>
